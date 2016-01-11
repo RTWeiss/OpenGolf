@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6179FDE1C405E770010523C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6179FDD1C405E770010523C /* AppDelegate.swift */; };
+		F6179FE01C405E770010523C /* PlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6179FDF1C405E770010523C /* PlayingViewController.swift */; };
+		F6179FE31C405E770010523C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6179FE11C405E770010523C /* Main.storyboard */; };
+		F6179FE61C405E770010523C /* Open_Golf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6179FE41C405E770010523C /* Open_Golf.xcdatamodeld */; };
+		F6179FE81C405E770010523C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6179FE71C405E770010523C /* Assets.xcassets */; };
+		F6179FEB1C405E770010523C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6179FE91C405E770010523C /* LaunchScreen.storyboard */; };
+		F6179FF61C405E770010523C /* Open_GolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6179FF51C405E770010523C /* Open_GolfTests.swift */; };
+		F617A0011C405E770010523C /* Open_GolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617A0001C405E770010523C /* Open_GolfUITests.swift */; };
+		F617A00F1C40CC720010523C /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = F617A00E1C40CC720010523C /* Round.swift */; };
+		F6B5735F1C419363002E5EF5 /* RoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5735E1C419363002E5EF5 /* RoundTableViewCell.swift */; };
+		F6B573611C4194F2002E5EF5 /* RoundsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B573601C4194F2002E5EF5 /* RoundsTableViewController.swift */; };
+		F6B573631C41D622002E5EF5 /* ObserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B573621C41D622002E5EF5 /* ObserveViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6179FF21C405E770010523C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6179FD21C405E770010523C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6179FD91C405E770010523C;
+			remoteInfo = "Open Golf";
+		};
+		F6179FFD1C405E770010523C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6179FD21C405E770010523C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6179FD91C405E770010523C;
+			remoteInfo = "Open Golf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6179FDA1C405E770010523C /* OpenGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6179FDD1C405E770010523C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6179FDF1C405E770010523C /* PlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingViewController.swift; sourceTree = "<group>"; };
+		F6179FE21C405E770010523C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6179FE51C405E770010523C /* Open_Golf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Open_Golf.xcdatamodel; sourceTree = "<group>"; };
+		F6179FE71C405E770010523C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6179FEA1C405E770010523C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6179FEC1C405E770010523C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6179FF11C405E770010523C /* OpenGolf.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGolf.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6179FF51C405E770010523C /* Open_GolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_GolfTests.swift; sourceTree = "<group>"; };
+		F6179FF71C405E770010523C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6179FFC1C405E770010523C /* OpenGolf.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGolf.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F617A0001C405E770010523C /* Open_GolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_GolfUITests.swift; sourceTree = "<group>"; };
+		F617A0021C405E770010523C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F617A00E1C40CC720010523C /* Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		F6B5735E1C419363002E5EF5 /* RoundTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTableViewCell.swift; sourceTree = "<group>"; };
+		F6B573601C4194F2002E5EF5 /* RoundsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundsTableViewController.swift; sourceTree = "<group>"; };
+		F6B573621C41D622002E5EF5 /* ObserveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserveViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6179FD71C405E770010523C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6179FEE1C405E770010523C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6179FF91C405E770010523C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6179FD11C405E770010523C = {
+			isa = PBXGroup;
+			children = (
+				F6179FDC1C405E770010523C /* OpenGolf */,
+				F6179FF41C405E770010523C /* OpenGolfTests */,
+				F6179FFF1C405E770010523C /* OpenGolfUITests */,
+				F6179FDB1C405E770010523C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6179FDB1C405E770010523C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6179FDA1C405E770010523C /* OpenGolf.app */,
+				F6179FF11C405E770010523C /* OpenGolf.xctest */,
+				F6179FFC1C405E770010523C /* OpenGolf.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6179FDC1C405E770010523C /* OpenGolf */ = {
+			isa = PBXGroup;
+			children = (
+				F6179FDD1C405E770010523C /* AppDelegate.swift */,
+				F6179FDF1C405E770010523C /* PlayingViewController.swift */,
+				F6B573621C41D622002E5EF5 /* ObserveViewController.swift */,
+				F6B573601C4194F2002E5EF5 /* RoundsTableViewController.swift */,
+				F6B5735E1C419363002E5EF5 /* RoundTableViewCell.swift */,
+				F617A00E1C40CC720010523C /* Round.swift */,
+				F6179FE11C405E770010523C /* Main.storyboard */,
+				F6179FE71C405E770010523C /* Assets.xcassets */,
+				F6179FE41C405E770010523C /* Open_Golf.xcdatamodeld */,
+				F6179FE91C405E770010523C /* LaunchScreen.storyboard */,
+				F6179FEC1C405E770010523C /* Info.plist */,
+			);
+			name = OpenGolf;
+			path = "Open Golf";
+			sourceTree = "<group>";
+		};
+		F6179FF41C405E770010523C /* OpenGolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6179FF51C405E770010523C /* Open_GolfTests.swift */,
+				F6179FF71C405E770010523C /* Info.plist */,
+			);
+			name = OpenGolfTests;
+			path = "Open GolfTests";
+			sourceTree = "<group>";
+		};
+		F6179FFF1C405E770010523C /* OpenGolfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F617A0001C405E770010523C /* Open_GolfUITests.swift */,
+				F617A0021C405E770010523C /* Info.plist */,
+			);
+			name = OpenGolfUITests;
+			path = "Open GolfUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6179FD91C405E770010523C /* OpenGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F617A0051C405E770010523C /* Build configuration list for PBXNativeTarget "OpenGolf" */;
+			buildPhases = (
+				F6179FD61C405E770010523C /* Sources */,
+				F6179FD71C405E770010523C /* Frameworks */,
+				F6179FD81C405E770010523C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGolf;
+			productName = "Open Golf";
+			productReference = F6179FDA1C405E770010523C /* OpenGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6179FF01C405E770010523C /* OpenGolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F617A0081C405E770010523C /* Build configuration list for PBXNativeTarget "OpenGolfTests" */;
+			buildPhases = (
+				F6179FED1C405E770010523C /* Sources */,
+				F6179FEE1C405E770010523C /* Frameworks */,
+				F6179FEF1C405E770010523C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6179FF31C405E770010523C /* PBXTargetDependency */,
+			);
+			name = OpenGolfTests;
+			productName = "Open GolfTests";
+			productReference = F6179FF11C405E770010523C /* OpenGolf.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6179FFB1C405E770010523C /* OpenGolfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F617A00B1C405E770010523C /* Build configuration list for PBXNativeTarget "OpenGolfUITests" */;
+			buildPhases = (
+				F6179FF81C405E770010523C /* Sources */,
+				F6179FF91C405E770010523C /* Frameworks */,
+				F6179FFA1C405E770010523C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6179FFE1C405E770010523C /* PBXTargetDependency */,
+			);
+			name = OpenGolfUITests;
+			productName = "Open GolfUITests";
+			productReference = F6179FFC1C405E770010523C /* OpenGolf.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6179FD21C405E770010523C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ChristopherCobar;
+				TargetAttributes = {
+					F6179FD91C405E770010523C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F6179FF01C405E770010523C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F6179FD91C405E770010523C;
+					};
+					F6179FFB1C405E770010523C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F6179FD91C405E770010523C;
+					};
+				};
+			};
+			buildConfigurationList = F6179FD51C405E770010523C /* Build configuration list for PBXProject "OpenGolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6179FD11C405E770010523C;
+			productRefGroup = F6179FDB1C405E770010523C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6179FD91C405E770010523C /* OpenGolf */,
+				F6179FF01C405E770010523C /* OpenGolfTests */,
+				F6179FFB1C405E770010523C /* OpenGolfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6179FD81C405E770010523C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6179FEB1C405E770010523C /* LaunchScreen.storyboard in Resources */,
+				F6179FE81C405E770010523C /* Assets.xcassets in Resources */,
+				F6179FE31C405E770010523C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6179FEF1C405E770010523C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6179FFA1C405E770010523C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6179FD61C405E770010523C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B573631C41D622002E5EF5 /* ObserveViewController.swift in Sources */,
+				F6B573611C4194F2002E5EF5 /* RoundsTableViewController.swift in Sources */,
+				F6179FE01C405E770010523C /* PlayingViewController.swift in Sources */,
+				F6B5735F1C419363002E5EF5 /* RoundTableViewCell.swift in Sources */,
+				F6179FE61C405E770010523C /* Open_Golf.xcdatamodeld in Sources */,
+				F617A00F1C40CC720010523C /* Round.swift in Sources */,
+				F6179FDE1C405E770010523C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6179FED1C405E770010523C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6179FF61C405E770010523C /* Open_GolfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6179FF81C405E770010523C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F617A0011C405E770010523C /* Open_GolfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6179FF31C405E770010523C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6179FD91C405E770010523C /* OpenGolf */;
+			targetProxy = F6179FF21C405E770010523C /* PBXContainerItemProxy */;
+		};
+		F6179FFE1C405E770010523C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6179FD91C405E770010523C /* OpenGolf */;
+			targetProxy = F6179FFD1C405E770010523C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6179FE11C405E770010523C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6179FE21C405E770010523C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6179FE91C405E770010523C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6179FEA1C405E770010523C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F617A0031C405E770010523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F617A0041C405E770010523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F617A0061C405E770010523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Open Golf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophercobar.Open-Golf";
+				PRODUCT_NAME = OpenGolf;
+			};
+			name = Debug;
+		};
+		F617A0071C405E770010523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Open Golf/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophercobar.Open-Golf";
+				PRODUCT_NAME = OpenGolf;
+			};
+			name = Release;
+		};
+		F617A0091C405E770010523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Open GolfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophercobar.Open-GolfTests";
+				PRODUCT_NAME = OpenGolf;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGolf.app/OpenGolf";
+			};
+			name = Debug;
+		};
+		F617A00A1C405E770010523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Open GolfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophercobar.Open-GolfTests";
+				PRODUCT_NAME = OpenGolf;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGolf.app/OpenGolf";
+			};
+			name = Release;
+		};
+		F617A00C1C405E770010523C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Open GolfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophercobar.Open-GolfUITests";
+				PRODUCT_NAME = OpenGolf;
+				TEST_TARGET_NAME = "Open Golf";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F617A00D1C405E770010523C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Open GolfUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.christophercobar.Open-GolfUITests";
+				PRODUCT_NAME = OpenGolf;
+				TEST_TARGET_NAME = "Open Golf";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6179FD51C405E770010523C /* Build configuration list for PBXProject "OpenGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617A0031C405E770010523C /* Debug */,
+				F617A0041C405E770010523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617A0051C405E770010523C /* Build configuration list for PBXNativeTarget "OpenGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617A0061C405E770010523C /* Debug */,
+				F617A0071C405E770010523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617A0081C405E770010523C /* Build configuration list for PBXNativeTarget "OpenGolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617A0091C405E770010523C /* Debug */,
+				F617A00A1C405E770010523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617A00B1C405E770010523C /* Build configuration list for PBXNativeTarget "OpenGolfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F617A00C1C405E770010523C /* Debug */,
+				F617A00D1C405E770010523C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6179FE41C405E770010523C /* Open_Golf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6179FE51C405E770010523C /* Open_Golf.xcdatamodel */,
+			);
+			currentVersion = F6179FE51C405E770010523C /* Open_Golf.xcdatamodel */;
+			path = Open_Golf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6179FD21C405E770010523C /* Project object */;
+}
